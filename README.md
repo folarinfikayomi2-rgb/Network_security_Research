@@ -37,3 +37,9 @@ Denial of Service (DoS) and Distributed Denial of Service (DDoS)
 
 Example:
 Imagine a bank's website can handle 5,000 requests per minute. An attacker sends an unusually large number of requests, consuming the server's resources. Legitimate customers may then be unable to access their accounts.
+
+2.2 What is a DDoS attack?
+A Distributed Denial of Service (DDoS) attack has the same objective as a DoS attack, but the malicious traffic originates from multiple devices or sources.
+Attackers often use a network of compromised devices called a botnet.
+A botnet may consist of infected computers, routers, servers and Internet of Things (IoT) devices controlled remotely by an attacker.
+2.3 Difference between DoS and DDoS
