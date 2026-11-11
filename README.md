@@ -168,13 +168,21 @@ Modern HTTPS protections, including HSTS, help prevent this technique.
   Implementing ingress and egress filtering,network Monitoring and appropriate firewall policies helps organisations reduce the risks associated with IP spoofing.
   
   
+  Section 5;DNS Poisoning
+  * What is Dns Poisoning?
+     DNS poisoning, also known as Dns cache poiconing, Is a cyberattack in which an attacker manipulates Dns           information to redirect users from legitimate websites to malicious or fraudulent destinations
+    
 The Domain Name System (DNS) translates human-readable domain names, such as google.com, into IP addresses that computers use to communicate.
+
 DNS poisoning occurs when false DNS information is introduced into a DNS resolver's cache, causing users to receive an incorrect IP address when they request a domain.
+
 5.2 How does DNS Poisoning work?
-A typical DNS cache poisoning attack follows these steps:
-DNS request: A user attempts to access a legitimate website.
-DNS query: The user's device sends a request to a DNS resolver to obtain the website's IP address.
-Manipulation: An attacker attempts to inject a fraudulent DNS response into the resolver's cache.
-Cache poisoning: If the forged response is accepted, the resolver stores the incorrect IP address.
-Redirection: Other users querying the affected domain may be directed to a malicious website.
+
+* A typical DNS cache poisoning attack follows these steps:
+1. DNS request: A user attempts to access a legitimate website.
+2. DNS query: The user's device sends a request to a DNS resolver to obtain the website's IP address.
+3. Manipulation: An attacker attempts to inject a fraudulent DNS response into the resolver's cache.
+4. Cache poisoning: If the forged response is accepted, the resolver stores the incorrect IP address.
+5. Redirection: Other users querying the affected domain may be directed to a malicious website.
+
 For example, a user enters their bank's legitimate domain name but receives a fraudulent IP address from a poisoned DNS cache. They may consequently land on a fake banking website designed to steal their credentials.
