@@ -129,3 +129,42 @@ Modern HTTPS protections, including HSTS, help prevent this technique.
  Man-in-the-Middle attacks compromise the confidentiality and integrity of communications by allowing attackers    to intercept or manipulate information exchanged between two parties.
 
  * Strong encryption, proper network configurations, certificatte validaation and continous monitoring are essential for reducing the risk of these attacks
+
+
+
+**Section 4
+* IP Spoofing
+  IP spoofing is a cyberattack technique in which an attacker modifies the source IP address in an IP packet to make it appear as though the packet originated froma another device. Normally, when a device sends data across a network, its IP packet contains a source IP address identifying where the packet came from. An attacker can manipulate this address to disguise the true origin of the traffic
+
+* How does IP Spoofing Work:
+  1. Selecting a False IP address: The attacker chooses an IP address To Impersonate.
+  2. Packet Manipulation: The attacker Modifies the source IP in Outgoing IP packets.
+  3. Transmission: The packets are transmitted with a forged source address.
+  4. Deception: The recieving System sees the falsified source address, which may make identifying the main sender difficult
+
+  * IP spoofing changes the source address, but it does not give the attacker acess to the device's address being impersonated
+ 
+  * Common Types of IP spoofing
+  1. Blind spoofing: The attacker sends packets using a forges source IP address without being able toobserve The responses from the target
+  2. Non-Blind Spoofing: The attacker can observe network traffic and potentially use that information to make spoofed communication more convincing
+  3. IP Spoofing in DDoS Attacks: Attackers may forge fake source IP addresses to disguise the origin of malicious traffic or make it harder to filter network traffic
+
+  * Impact of IP spoofing;
+  1. Conceals the actual source of the network Traffic
+  2. Makes Network investigations more difficult
+  3. can be used in reflection and amplifications attacks
+  4. can facilitate certain forms of unauthorized access where other weaknesses exist
+  5. can undermine trust in IP-based access control
+ 
+  * Detection and Prevention;
+  1. Ingress Filtering: Checking incoming traffic to prevent packets with invalid or unexpected source addresses
+  2. Egress filtering: Checking Outgoing traffics from leaving a network with forged source addresses
+  3. Access control Lists: Filtering traffic according to network security policies
+  4. Network Monitoring: Identifying unusual source addresses and taffic patterns
+  5. Unicast Reverse Path Fowarding (uRPF): Checking whether the routing table provides a valid return path for a packet's source address
+  6. Firewalls: Applying appropriate source-address filtering rules
+  
+  To Conclude; IP spoofing involves falsifying the source IP of network packets to disguise their origin. It if frequently associated with DDoS attacks and other network-based attacks.
+  Implementing ingress and egress filtering,network Monitoring and appropriate firewall policies helps organisations reduce the risks associated with IP spoofing.
+  
+  
