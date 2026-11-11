@@ -25,3 +25,11 @@ The CIA Triad is a fundamental information security model consisting of three pr
 * Availability: Ensures that systems, networks and information remain accessible to authorised users when required.
 
 These three principles provide a foundation for understanding the impact of network security attacks.
+
+
+Section 2: Denial of Service (DoS) and Distributed Denial of Service (DDoS)
+2.1 What is a DoS attack?
+A Denial of Service (DoS) attack is a cyberattack designed to make a network, server or online service unavailable to legitimate users.
+An attacker achieves this by overwhelming the target with excessive traffic or requests, or by exploiting a vulnerability that causes the service to stop responding.
+Example:
+Imagine a bank's website can handle 5,000 requests per minute. An attacker sends an unusually large number of requests, consuming the server's resources. Legitimate customers may then be unable to access their accounts.
