@@ -186,3 +186,30 @@ DNS poisoning occurs when false DNS information is introduced into a DNS resolve
 5. Redirection: Other users querying the affected domain may be directed to a malicious website.
 
 For example, a user enters their bank's legitimate domain name but receives a fraudulent IP address from a poisoned DNS cache. They may consequently land on a fake banking website designed to steal their credentials.
+
+5.3 Common types of DNS Poisoning
+1. DNS Cache Poisoning
+An attacker injects false DNS records into a DNS resolver's cache. This causes users to receive incorrect IP addresses when accessing legitimate domains.
+2. DNS Spoofing
+An attacker sends fraudulent DNS responses to trick a device or resolver into accepting an incorrect IP address.
+3. DNS Hijacking
+An attacker changes DNS settings or compromises DNS infrastructure to redirect users to malicious destinations.
+5.4 Impact of DNS Poisoning
+DNS poisoning can lead to:
+Credential theft through fraudulent websites.
+Financial fraud and identity theft.
+Redirection to malicious websites.
+Malware distribution.
+Loss of user trust.
+Compromise of sensitive organisational information.
+5.5 Detection and Prevention
+Organisations can reduce DNS poisoning risks through:
+DNSSEC: Uses digital signatures to help verify the authenticity and integrity of DNS responses.
+Secure DNS resolvers: Use trusted and properly configured DNS infrastructure.
+DNS cache management: Regularly monitor and clear suspicious or compromised DNS cache entries.
+Network monitoring: Identify unusual DNS queries and unexpected responses.
+Access controls: Restrict unauthorised access to DNS servers and configurations.
+DNS over HTTPS (DoH): Encrypts DNS queries between supported clients and resolvers, helping protect against certain forms of interception.
+5.6 Conclusion
+DNS poisoning is a network security threat that exploits weaknesses in DNS resolution to redirect users to malicious destinations.
+Implementing DNSSEC, securing DNS infrastructure and monitoring DNS traffic can significantly reduce the risk of DNS-based attacks.
