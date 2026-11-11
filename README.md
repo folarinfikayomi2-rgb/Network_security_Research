@@ -126,5 +126,5 @@ Modern HTTPS protections, including HSTS, help prevent this technique.
 * Implementing Dynamic ARP Inspection on managed networks where appropriate.
 
 * Conclusion
-Man-in-the-Middle attacks compromise the confidentiality and integrity of communications by allowing attackers to intercept or manipulate information exchanged between two parties.
-Strong encryption, proper network configurations, certifi
+ Man-in-the-Middle attacks compromise the confidentiality and integrity of communications by allowing attackers    to intercept or manipulate information exchanged between two parties.
+ Strong encryption, proper network configurations, certifi
