@@ -127,4 +127,5 @@ Modern HTTPS protections, including HSTS, help prevent this technique.
 
 * Conclusion
  Man-in-the-Middle attacks compromise the confidentiality and integrity of communications by allowing attackers    to intercept or manipulate information exchanged between two parties.
- Strong encryption, proper network configurations, certifi
+
+ * Strong encryption, proper network configurations, certificatte validaation and continous monitoring are essential for reducing the risk of these attacks
