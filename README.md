@@ -86,38 +86,45 @@ An MITM attack typically follows this pattern;
 
 For example, imagine someone connects to an unsecured network public wifi network to access their email. An attacker on the same network may attempt to intercept their communications and obtain sensitive information
 
-3.2 Common MITM attack techniques
+* Common MITM attack techniques
 1. ARP Spoofing (ARP Poisoning)
 Address Resolution Protocol (ARP) is used to map IP addresses to MAC addresses within a local network.
 An attacker sends falsified ARP messages to associate their MAC address with another device's IP address, often the default gateway.
 This can redirect network traffic through the attacker's device.
-2. DNS Spoofing
+
+3. DNS Spoofing
 An attacker manipulates DNS responses or records to redirect users from legitimate websites to malicious destinations.
 For example, a user attempts to visit their bank's website but is redirected to a fraudulent website designed to steal login credentials.
-3. Rogue Wi-Fi Access Points
+
+5. Rogue Wi-Fi Access Points
 An attacker creates a malicious wireless access point that imitates a legitimate Wi-Fi network.
 Users who connect may expose their network traffic to interception.
-4. SSL Stripping
+
+7. SSL Stripping
 An attacker attempts to downgrade a connection from HTTPS to HTTP, potentially exposing information that would otherwise be encrypted.
 Modern HTTPS protections, including HSTS, help prevent this technique.
-3.3 Impact of MITM attacks
-MITM attacks can result in:
-Theft of usernames and passwords.
-Exposure of sensitive personal information.
-Financial fraud.
-Session hijacking.
-Modification of transmitted information.
-Unauthorised access to systems and accounts.
-3.4 Detection and prevention
-Organisations and individuals can reduce MITM risks through:
-Using HTTPS and valid TLS certificates.
-Avoiding unsecured or suspicious public Wi-Fi networks.
-Implementing strong Wi-Fi encryption such as WPA3.
-Using VPNs on untrusted networks where appropriate.
-Implementing certificate validation.
-Using network monitoring and intrusion detection systems.
-Enabling HSTS on supported websites.
-Implementing Dynamic ARP Inspection on managed networks where appropriate.
-3.5 Conclusion
+
+* Impact of MITM attacks
+* MITM attacks can result in:
+* Theft of usernames and passwords.
+* Exposure of sensitive personal information.
+* Financial fraud.
+* Session hijacking.
+* Modification of transmitted information.
+* Unauthorised access to systems and accounts.
+
+
+*  Detection and prevention
+* Organisations and individuals can reduce MITM risks through:
+* Using HTTPS and valid TLS certificates.
+* Avoiding unsecured or suspicious public Wi-Fi networks.
+* Implementing strong Wi-Fi encryption such as WPA3.
+* Using VPNs on untrusted networks where appropriate.
+* Implementing certificate validation.
+* Using network monitoring and intrusion detection systems.
+* Enabling HSTS on supported websites.
+* Implementing Dynamic ARP Inspection on managed networks where appropriate.
+
+* Conclusion
 Man-in-the-Middle attacks compromise the confidentiality and integrity of communications by allowing attackers to intercept or manipulate information exchanged between two parties.
 Strong encryption, proper network configurations, certifi
