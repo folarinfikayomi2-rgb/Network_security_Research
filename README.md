@@ -38,8 +38,51 @@ Denial of Service (DoS) and Distributed Denial of Service (DDoS)
 Example:
 Imagine a bank's website can handle 5,000 requests per minute. An attacker sends an unusually large number of requests, consuming the server's resources. Legitimate customers may then be unable to access their accounts.
 
-2.2 What is a DDoS attack?
-A Distributed Denial of Service (DDoS) attack has the same objective as a DoS attack, but the malicious traffic originates from multiple devices or sources.
-Attackers often use a network of compromised devices called a botnet.
-A botnet may consist of infected computers, routers, servers and Internet of Things (IoT) devices controlled remotely by an attacker.
-2.3 Difference between DoS and DDoS
+* What is a DDoS attack?
+  A Distributed Denial of Service (DDoS) attack has the same objective as a DoS attack, but the malicious traffic   originates from multiple devices or sources.
+  Attackers often use a network of compromised devices called a botnet.
+  
+* A botnet may consist of infected computers, routers, servers and Internet of Things (IoT) devices controlled remotely by an attacker.
+
+  
+* Difference between DoS and DDoS
+  DoS is is often from a single source and the traffic is always from a single source also which makes the mitigation process less simpler and its often easier to trace. It can also disrupt services also. Meanwhine DDoS is from multiple sources and the traffic is from multiple sources and this makes the mitigation process more harder than DoS and harder to identify sources, Its impact can cause widespread disruption
+
+* Common Types of DoS/DDoS attacks;
+1. SYN Flood: This happens when an attacker sends multiple syn requests to a server without completeing the Three way handshake. This leaves the server with many half-open connection, consuming resources
+
+2. UDP Flood: An Attacker sends large volumes of UDP packets to random or targeted ports, forcing the receiving system to process traffic and potentially generate responses
+
+3. ICMP Flood: An attacker overwhelms a target with excessive ICMP packets, such as ping requests
+
+4. HTTP Flood: An Attacker overwhelms a target with excessive HTTP requests to a web-server, consuming application and sserver responses
+
+Detection And Prevention:
+Organisations can reduce the impact of these attacks through:
+* Rate Limiting
+* Firewalls and Intrusion Prevention System(IPS)
+* Traffic Monitoring
+* DDoS protection services
+* Traffic filtering
+
+To Conclude;
+DoS and DDoS attacks threaten the availability of network resources and online services. While DoS attacks typically originate from a single source, DDoS attacks uses multiple distributed sources, making them difficult to mitigate.
+
+Organisations shoull implement appropriate network monitoring, traffic filtering and intrusion prevention systems mechanisms to maintain service availability
+
+
+Section 2,
+MITM(Man-In-The-Middle) attacks
+A Man-in-the-middle) attack occurs when an attacker secretly positions themselves between two communicating parties and intercepts, monitors or modifies the information being exchanged
+
+Two parties may beleive they are communicating directly, meanwhile an attacker sits between them and sees what both parties are communicating
+
+* How a MITM attack works
+An MITM attack typically follows this pattern;
+1. Interception: the attacker positions themselves between two communicating devices.
+2. Monitoring: The attacker captures information being exchanged.
+3. Manipulation: The attacker Modifies messages or redirect communications.
+4. exploitation: The attacker may steal credentials, sensitive information or session data.
+
+For example, imagine someone connects to an unsecured network public wifi network to access their email. An attacker on the same network may attempt to intercept their communications and obtain sensitive information
+
