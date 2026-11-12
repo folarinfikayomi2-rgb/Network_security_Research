@@ -262,3 +262,20 @@ Based on the findings of this research, the following recommendations are propos
 
 * Final Remarks
 Network security is an ongoing responsibility that requires continuous assessment and improvement. Organisations should adopt a proactive security approach to protect their infrastructure, maintain service availability and safeguard sensitive information.
+
+8. References
+
+The following authoritative sources were consulted during this research:
+
+1. Cybersecurity and Infrastructure Security Agency (CISA), FBI, and MS-ISAC. Understanding and Responding to Distributed Denial-of-Service Attacks.
+    https://www.cisa.gov/sites/default/files/2024-03/understanding-and-responding-to-distributed-denial-of-service-attacks_508c.pdf
+2. National Institute of Standards and Technology (NIST). Man-in-the-Middle Attack: Cybersecurity Glossary.
+    https://csrc.nist.gov/glossary/term/man_in_the_middle_attack
+3. Internet Engineering Task Force (IETF). RFC 4033: DNS Security Introduction and Requirements.
+    https://www.rfc-editor.org/rfc/rfc4033
+4. Internet Engineering Task Force (IETF). RFC 3704: Ingress Filtering for Multihomed Networks.
+    https://www.rfc-editor.org/rfc/rfc3704
+5. National Cyber Security Centre (NCSC). Preparing for Denial of Service (DoS) Attacks.
+    https://www.ncsc.gov.uk/guidance/preparing-denial-service-dos-attacks
+6. National Institute of Standards and Technology (NIST). Secure Domain Name System (DNS) Deployment Guide, SP 800-81 Rev. 3.
+    https://csrc.nist.gov/pubs/sp/800/81/r3/final
