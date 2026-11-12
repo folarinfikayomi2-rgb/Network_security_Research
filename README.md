@@ -166,9 +166,12 @@ Modern HTTPS protections, including HSTS, help prevent this technique.
   
   To Conclude; IP spoofing involves falsifying the source IP of network packets to disguise their origin. It if frequently associated with DDoS attacks and other network-based attacks.
   Implementing ingress and egress filtering,network Monitoring and appropriate firewall policies helps organisations reduce the risks associated with IP spoofing.
+
   
   
-  Section 5;DNS Poisoning
+  
+  Section 5:
+  DNS Poisoning
   * What is Dns Poisoning?
      DNS poisoning, also known as Dns cache poiconing, Is a cyberattack in which an attacker manipulates Dns           information to redirect users from legitimate websites to malicious or fraudulent destinations
     
@@ -176,7 +179,7 @@ The Domain Name System (DNS) translates human-readable domain names, such as goo
 
 DNS poisoning occurs when false DNS information is introduced into a DNS resolver's cache, causing users to receive an incorrect IP address when they request a domain.
 
-5.2 How does DNS Poisoning work?
+*  How does DNS Poisoning work?
 
 * A typical DNS cache poisoning attack follows these steps:
 1. DNS request: A user attempts to access a legitimate website.
@@ -187,7 +190,7 @@ DNS poisoning occurs when false DNS information is introduced into a DNS resolve
 
 For example, a user enters their bank's legitimate domain name but receives a fraudulent IP address from a poisoned DNS cache. They may consequently land on a fake banking website designed to steal their credentials.
 
-5.3 Common types of DNS Poisoning
+* Common types of DNS Poisoning
 1. DNS Cache Poisoning
 An attacker injects false DNS records into a DNS resolver's cache. This causes users to receive incorrect IP addresses when accessing legitimate domains.
 2. DNS Spoofing
@@ -216,3 +219,13 @@ Organisations can reduce DNS poisoning risks through:
 * Conclusion
 DNS poisoning is a network security threat that exploits weaknesses in DNS resolution to redirect users to malicious destinations.
 Implementing DNSSEC, securing DNS infrastructure and monitoring DNS traffic can significantly reduce the risk of DNS-based attacks.
+
+
+
+
+**Comparison of Network security Threats 
+Comparative analysis:
+* DoS/DDoS; is the process of flooding a server with too many requests than it is capable of processing and this mainly targets the AVAILABILTY of The CIS Security principle
+* MITM is the process where by an attacker gains access between two networks communicating and can see whats Going on in that conversation, The attacker can also Modify The conversations to steal information abot the website. This targets The INTEGRITY and CONFIDENTIALITY of The CIA security principle
+* IP spoofing is the process whereby an attacker forges a fake source ip address and uses it to send requests to a web server, This also works with DoS/DDoS which makes the footprint less traceable, This impacts The Authentication and traffc trust Of  a web server
+* Dns Poisoning is the process of manipulating Dns records and this mainly focuses onthe confidentiality and integrity of the CIA security principle
