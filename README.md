@@ -229,3 +229,10 @@ Comparative analysis:
 * MITM is the process where by an attacker gains access between two networks communicating and can see whats Going on in that conversation, The attacker can also Modify The conversations to steal information abot the website. This targets The INTEGRITY and CONFIDENTIALITY of The CIA security principle
 * IP spoofing is the process whereby an attacker forges a fake source ip address and uses it to send requests to a web server, This also works with DoS/DDoS which makes the footprint less traceable, This impacts The Authentication and traffc trust Of  a web server
 * Dns Poisoning is the process of manipulating Dns records and this mainly focuses onthe confidentiality and integrity of the CIA security principle
+
+The research highlights several important findings:
+Network attacks target different weaknesses within network infrastructure.
+Some attacks directly compromise availability, while others threaten confidentiality and integrity.
+Multiple security controls are needed because no single solution prevents every type of attack.
+Continuous network monitoring helps organisations identify suspicious activity.
+Security awareness, regular updates and proper network configuration are essential for reducing risks.
