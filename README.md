@@ -240,22 +240,25 @@ The research highlights several important findings:
 * Security awareness, regular updates and proper network configuration are essential for reducing risks.
 
 Section 7: Conclusion and Security Recommendations
-7.1 Conclusion
+
 This research examined four major network security threats: Denial of Service (DoS/DDoS), Man-in-the-Middle (MITM), IP Spoofing and DNS Poisoning.
 The findings demonstrate that network attacks can compromise the confidentiality, integrity and availability of information systems.
 DoS and DDoS attacks disrupt access to network services, MITM attacks expose communications to interception, IP spoofing disguises the origin of network traffic, and DNS poisoning manipulates domain name resolution to redirect users.
-Understanding these threats enables network administrators and cybersecurity professionals to identify vulnerabilities, assess potential risks and implement appropriate security controls.
-Effective network security requires a combination of preventive measures, continuous monitoring, incident detection and timely response.
-7.2 Security Recommendations
-Based on the findings of this research, the following recommendations are proposed:
-Implement strong firewall policies: Configure firewalls to filter suspicious and unauthorised network traffic.
-Use encryption: Implement HTTPS, TLS and secure communication protocols.
-Deploy intrusion detection systems: Use IDS and IPS solutions to identify and respond to suspicious network activity.
-Secure DNS infrastructure: Implement DNSSEC and monitor DNS queries.
-Apply IP filtering: Use ingress and egress filtering to reduce IP spoofing.
-Monitor network traffic: Regularly analyse network traffic to identify unusual activity.
-Update systems regularly: Apply security patches to reduce vulnerabilities.
-Develop incident response procedures: Establish procedures for identifying, containing and recovering from cyberattacks.
 
-7.3 Final Remarks
+Understanding these threats enables network administrators and cybersecurity professionals to identify vulnerabilities, assess potential risks and implement appropriate security controls.
+
+Effective network security requires a combination of preventive measures, continuous monitoring, incident detection and timely response.
+
+* Security Recommendations
+Based on the findings of this research, the following recommendations are proposed:
+1. Implement strong firewall policies: Configure firewalls to filter suspicious and unauthorised network traffic.
+2. Use encryption: Implement HTTPS, TLS and secure communication protocols.
+3. Deploy intrusion detection systems: Use IDS and IPS solutions to identify and respond to suspicious network activity.
+4. Secure DNS infrastructure: Implement DNSSEC and monitor DNS queries.
+5.Apply IP filtering: Use ingress and egress filtering to reduce IP spoofing.
+6. Monitor network traffic: Regularly analyse network traffic to identify unusual activity.
+7. Update systems regularly: Apply security patches to reduce vulnerabilities.
+8. Develop incident response procedures: Establish procedures for identifying, containing and recovering from cyberattacks.
+
+* Final Remarks
 Network security is an ongoing responsibility that requires continuous assessment and improvement. Organisations should adopt a proactive security approach to protect their infrastructure, maintain service availability and safeguard sensitive information.
